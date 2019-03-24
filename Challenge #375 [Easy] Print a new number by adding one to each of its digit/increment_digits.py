@@ -7,6 +7,7 @@
 #
 # Purpose:	Take a number from the user and print a new number by incrementing each digit by 1.
 
+# Loop over each character of the input string and increment by 1
 def increment_digits(number):
 	ans = ''
 	for digit in number:
