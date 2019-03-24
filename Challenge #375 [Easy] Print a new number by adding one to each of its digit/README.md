@@ -12,5 +12,5 @@ This challenge is trivial to do if you map it to a string to iterate over the in
 This challenge was suggested by user [/u/chetvishal](https://www.reddit.com/u/chetvishal), many thanks! If you have a challenge idea please share it in [/r/dailyprogrammer](https://www.reddit.com/r/dailyprogrammer) ideas and there's a good chance we'll use it.
 
 ## Source
-[https://www.reddit.com/r/dailyprogrammer/comments/aphavc/20190211_challenge_375_easy_print_a_new_number_by/]
+https://www.reddit.com/r/dailyprogrammer/comments/aphavc/20190211_challenge_375_easy_print_a_new_number_by/
 
