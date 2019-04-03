@@ -15,9 +15,9 @@ def increment_digits(number):
 	return ans
 
 number = (input('Enter a number: '))
-new_number = increment_digits(number)
+number_new = increment_digits(number)
 
 print()
 print('Old number: ' + number)
-print('New number: ' + new_number)
+print('New number: ' + number_new)
 
