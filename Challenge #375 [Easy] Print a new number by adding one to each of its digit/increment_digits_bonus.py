@@ -14,7 +14,7 @@ def increment_digits(number):
     digits = int(math.log10(number) + 1)
     position = 1
 
-    for i in range(digits):
+    while digits:
         number_tmp = (number % 10) + 1      # Grab the right most digit and increment
         number //= 10                       # Remove it from the original number
         number_new += number_tmp * position # Place it from right to left
@@ -24,6 +24,7 @@ def increment_digits(number):
             position *= 100     # 2 digits to the left
         else:
             position *= 10      # 1 digit to the left
+        digits -= 1
 
     return number_new
 
