@@ -1,12 +1,5 @@
 #!/usr/bin/python3
 
-# File:		increment_digits_bonus.py
-# Author:	Brett Henderson
-# Contact:	brett.henderson@bremily.net
-# Created:	2019-04-03
-#
-# Purpose:	Take a number from the user and print a new number by incrementing each digit by 1.
-
 import math
 
 def increment_digits(number):
