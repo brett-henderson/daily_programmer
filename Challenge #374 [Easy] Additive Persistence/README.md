@@ -19,7 +19,7 @@ Your challenge today is to implement a function that calculates the additive per
 ```
 
 ## Bonus
-The really easy solution manipulates the input to convert the number to a string and iterate over it. Try it without making the number a strong, decomposing it into digits while keeping it a number.
+The really easy solution manipulates the input to convert the number to a string and iterate over it. Try it without making the number a string, decomposing it into digits while keeping it a number.
 
 On some platforms and languages, if you try and find ever larger persistence values you'll quickly learn about your platform's big integer interfaces (e.g. 64 bit numbers).
 
