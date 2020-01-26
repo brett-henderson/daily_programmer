@@ -15,7 +15,6 @@ count = 0 # The additive persistence value
 # The number will change to the sum of its digits until that
 # sum is only 1 digit long
 while len(answer) > 1:
-    print(answer)
     answer = additive_persistence(answer)
     count += 1
 
