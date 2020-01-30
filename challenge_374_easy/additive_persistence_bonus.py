@@ -2,10 +2,11 @@
 
 import math
 
+
 def additive_persistence(number):
     # Calculate the sum of the number by looping through its digits
-    digits = int(math.log10(number) + 1) # number length
-    add = 0 # the sum value
+    digits = int(math.log10(number) + 1)  # number length
+    add = 0  # the sum value
 
     while digits:
         add += number % 10  # add the right most digit
@@ -14,9 +15,10 @@ def additive_persistence(number):
 
     return add
 
+
 number = int(input("Enter a number: "))
-answer = number # Keep number unchanged for final output
-count = 0 # The additive persistence value
+answer = number  # Keep number unchanged for final output
+count = 0  # The additive persistence value
 
 # The number will change to the sum of its digits until that
 # sum is only 1 digit long
